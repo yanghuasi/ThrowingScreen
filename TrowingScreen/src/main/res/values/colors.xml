@@ -1,0 +1,40 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="input_text_color">#FF000000</color>
+	<color name="main_back_color">#FFFFFFFF</color>
+	<color name="mediabuttun_back_color">#FF0099cc</color>
+	
+	<color name="main_red_color1">#FFDD7F7F</color>
+	<color name="main_red_color2">#FFEEE5D9</color>
+	<color name="main_red_color3">#FFE3D9CB</color>
+	<color name="main_red_color4">#FFE64030</color>
+	<color name="main_red_color4b">#FFB03629</color>
+	<color name="main_red_color4c">#80E64030</color>
+	<color name="main_gray_color1">#FFCCC6BE</color>
+	<color name="main_green_color">#FF3EB56F</color>
+	<color name="main_green_colorb">#FF339C5E</color>
+	<color name="help_view_back_color">#FFDBDBDB</color>
+	<color name="main_blue_color"> #FF0099cc</color>
+	<color name="main_blue_colorb">#FF0086B9</color>	
+	<color name="clear">#00000000</color>
+	<color name="block">#60000000</color>  	
+	
+	<color name="white">#FFFFFF</color>
+	<color name="offWhite">#DDDDDD</color>
+	<color name="black">#000000</color>
+	<color name="darkGray">#333333</color>
+	<color name="lightGray">#777777</color>
+	<color name="brightRed">#FF0000</color>
+	<color name="brightGreen">#00FF00</color>
+	<color name="brightBlue">#2222EF</color>
+	<color name="darkBlue">#880000FF</color>
+	<color name="transparent">#000000FF</color>	
+	
+	<color name="cfg_theme_color">#e0024a6b</color>
+    	<color name="cfg_text_color">#ff9ab7c4</color>
+	<color name="cfg_button_color_normal">#ff0e5372</color>
+    	<color name="cfg_button_color_pressed">#550e5372</color>	
+	
+</resources>
+

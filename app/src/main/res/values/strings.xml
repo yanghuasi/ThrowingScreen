@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ThrowingScreen</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="device_name_text">设备信息:</string>
+    <string name="wifi_ssid">热点名称:</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_device_name">广播名称:</string>
+    <string name="settings_close">确定</string>
+    <string name="wifi_skey">热点密码:</string>
+    <string name="pin_code_title">投&#160;屏&#160;码:</string>
+
+    <string name="register_stat_OK">Airplay activated</string>
+    <string name="register_stat_NO">Airplay not activated</string>
+</resources>

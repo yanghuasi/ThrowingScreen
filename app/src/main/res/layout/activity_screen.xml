@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <FrameLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF" >
+
+        <ImageView
+            android:id="@+id/iv_backgroudimg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/home" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18.0dip" >
+
+            <TextView
+                android:id="@+id/tv_device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/device_name_text"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp"
+                android:typeface="monospace" />
+
+
+            <TextView
+                android:id="@+id/tv_wifi_ssid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:gravity="left"
+                android:text="@string/wifi_ssid"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/tvb_wifi_skey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/wifi_skey"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/tvb_pin_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/pin_code_title"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top|right"
+            android:gravity="right"
+            android:padding="16.0dip"
+            >
+
+            <ImageView
+                android:id="@+id/iv_airplay_no_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/airplay_no_reg"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_airplay_reg_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/airplay_reg_ok"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/bn_setting_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                android:layout_gravity="center_vertical"
+                android:padding = "8dp"
+                app:srcCompat="@drawable/ic_menu_setting" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
